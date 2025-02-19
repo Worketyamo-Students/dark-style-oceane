@@ -8,13 +8,25 @@
     <title>Document</title>
     <style type="text/tailwindcss">
         @theme {
+         --color-body: #101111;
+         --color-bleu: #7A87FB;
+         --color-rose: #FFD49C;
+         --color-button: #292929;
+         --color-noir: #151515;
+         --color-gris: #878787;
+         --color-icone: #292929;
+         --color-blanc: #FAFAFA;
+         --color-white: #FFFFFF;
+         --color-table: #FFFFFF33;
+         --color-nav: #1C1C1C;
+         --font-poppins: "Poppins";
         }
     </style>
 </head>
 <body class="bg-[#101111] capitalize  text-white overflow-x-hidden flex flex-col gap-8 ">
     <header class="flex justify-between items-center m-10 lg:m-20">
         <div class="flex  gap-4 items-center">
-            <img src="./assets/images/Frame.png" alt="">
+            <img src="./assets/images/Frame.png" alt="" class="">
             znisa
         </div>
         <div class=" rounded-full   bg-gradient-to-r from-[#FFD49C]  to-[#7A87FB] p-1 hidden lg:block ">
@@ -30,7 +42,7 @@
             </ul>
         </div>
         <div class="block lg:hidden">
-            <img src="./assets/images/Home (1).png" alt="">
+            <img src="./assets/images/Home (1).png" alt="" class="border rounded-full">
         </div>
         <div class="lg:flex lg:items-center lg:justify-center hidden lg:block">
             <div class="w-full" >
@@ -49,19 +61,18 @@
     <section>
         
     </section>
-    <!-- section 3 -->
     <section class="mx-12 flex flex-col gap-8">
         <h1> my process to design</h1>
         <div class="flex gap-10">
             <div class="flex flex-col items-center">
                 
-                <div class=" rounded-full flex items-center justify-center border-white h-14   w-10  bg-[#101111] border  ">1 </div>
+                <div class=" rounded-full flex items-center justify-center border-white h-13   w-10  bg-[#101111] border  ">1 </div>
                 <div class="bg-white w-[1px] h-full   mt-4 p-[-0.5px] "></div>
             </div>
             <div class="flex flex-col gap-8  justify-center">
                 <img src="./assets/images/Ellipse 17.png" alt="" class="w-10">
                 <h1>Step 1: Product design Research</h1>
-                <p>This initial step involves a systematic and thorough exploration of the market landscape, user needs, and existing solutions.</p>
+                <p class=" line-clamp-3 lg:line-clamp-2">This initial step involves a systematic and thorough exploration of the market landscape, user needs, and existing solutions.</p>
                 <button type="submit" class="bg-gradient-to-r from-[#FFD49C]  to-[#7A87FB] rounded-full p-1 w-32  ">
                     <div class=" bg-black  rounded-full ">
                         See Examples
@@ -72,13 +83,13 @@
         <div class="flex gap-10">
             <div class="flex flex-col items-center">
                 
-                <div class=" rounded-full flex items-center justify-center border-white h-14   w-10  bg-[#101111] border ">2 </div>
+                <div class=" rounded-full flex items-center justify-center border-white h-13   w-10  bg-[#101111] border ">2 </div>
                 <hr class="bg-white w-[1px] h-full   mt-4 p-[0.5px] "></hr>
             </div>
             <div class="flex flex-col gap-8  justify-center">
                 <img src="./assets/images/Ellipse 17.png" alt="" class="w-10">
-                <h1>Step 1: Product design Research</h1>
-                <p>This initial step involves a systematic and thorough exploration of the market landscape, user needs, and existing solutions.</p>
+                <h1>Step 2: UI design in figma</h1>
+                <p class=" line-clamp-3 lg:line-clamp-2">This initial step involves a systematic and thorough exploration of the market landscape, user needs, and existing solutions.</p>
                 <button type="submit" class="bg-gradient-to-r from-[#FFD49C]  to-[#7A87FB] rounded-full p-1 w-32  ">
                     <div class=" bg-black  rounded-full ">
                         See Examples
@@ -94,8 +105,8 @@
             </div>
             <div class="flex flex-col gap-4  justify-center">
                 <img src="./assets/images/Ellipse 17.png" alt="" class="w-10">
-                <h1>Step 1: Product design Research</h1>
-                <p>This initial step involves a systematic and thorough exploration of the market landscape, user needs, and existing solutions.</p>
+                <h1>Step 1: No-code develop in webflow</h1>
+                <p class=" line-clamp-3 lg:line-clamp-2">This initial step involves a systematic and thorough exploration of the market landscape, user needs, and existing solutions.</p>
                 <button type="submit" class="bg-gradient-to-r from-[#FFD49C]  to-[#7A87FB] rounded-full p-1 w-32  ">
                     <div class=" bg-black  rounded-full ">
                         See Examples
@@ -112,26 +123,26 @@
         </div>
 
         <div class="flex flex-col gap-8">
-            <div class="bg-[#151515] mx-[35px] flex flex-col gap-8 pt-8">
-                    <div class="bg-gradient-to-r from-[#7A87FB]  to-[#FFD49C] h-[316px] "></div>
-                    <div class="flex flex-col gap-8 pb-6 ">
+            <div class="bg-[#151515] mx-[35px] flex flex-col gap-8 pt-8 lg:flex lg:flex-row lg:mx-[80px] lg:items-center lg:px-12 lg:py-8  ">
+                    <div class="bg-gradient-to-r from-[#7A87FB]  to-[#FFD49C] h-[316px] lg:h-[400px] lg:w-[400px] lg:flex-1  lg:flex lg:flex-col lg:gap-10"></div>
+                    <div class="flex flex-col gap-8 pb-6  lg:flex-1 ">
                         <button type="submit" class="w-[35px] h-[35px] rounded-full bg-gradient-to-b  from-[#151515] from-70%  to-white border border-gray-4OO">1</button>  
                         <h1 class="font-bold">Project Name </h1>
 
                     </div>
             </div>
-            <div class="bg-[#151515] mx-[35px] flex flex-col gap-8 pt-8">
-                    <div class="bg-gradient-to-r from-[#7A87FB]  to-[#FFD49C] h-[316px] "></div>
-                    <div class="flex flex-col gap-8 pb-6 ">
+            <div class="bg-[#151515] mx-[35px] flex flex-col gap-8 pt-8 lg:flex lg:flex-row lg:mx-[80px] lg:items-center lg:px-12 lg:py-8  ">
+                    <div class="bg-gradient-to-r from-[#7A87FB]  to-[#FFD49C] h-[316px] lg:h-[400px] lg:w-[400px] lg:flex-1  lg:flex lg:flex-col lg:gap-10"></div>
+                    <div class="flex flex-col gap-8 pb-6  lg:flex-1 ">
                         <button type="submit" class="w-[35px] h-[35px] rounded-full bg-gradient-to-b  from-[#151515] from-70%  to-white border border-gray-4OO">2</button>  
                         <h1 class="font-bold">Project Name </h1>
 
                     </div>
             </div>
-            <div class="bg-[#151515] mx-[35px] flex flex-col gap-8 pt-8">
-                    <div class="bg-gradient-to-r from-[#7A87FB]  to-[#FFD49C] h-[316px] "></div>
-                    <div class="flex flex-col gap-8 pb-6 " >
-                        <button type="submit" class="w-[35px] h-[35px] rounded-full bg-gradient-to-b  from-[#151515] from-70%  to-white border border-gray-4OO">2</button>  
+            <div class="bg-[#151515] mx-[35px] flex flex-col gap-8 pt-8 lg:flex lg:flex-row lg:mx-[80px] lg:items-center lg:px-12 lg:py-8  ">
+                    <div class="bg-gradient-to-r from-[#7A87FB]  to-[#FFD49C] h-[316px] lg:h-[400px] lg:w-[400px] lg:flex-1  lg:flex lg:flex-col lg:gap-10"></div>
+                    <div class="flex flex-col gap-8 pb-6  lg:flex-1 ">
+                        <button type="submit" class="w-[35px] h-[35px] rounded-full bg-gradient-to-b  from-[#151515] from-70%  to-white border border-gray-4OO">3</button>  
                         <h1 class="font-bold">Project Name </h1>
 
                     </div>
@@ -143,8 +154,8 @@
             <h1>Client testimonials</h1>
             <img src="./assets/images/frame.png" alt="">
         </div>
-        <div class="flex flex-col gap-8 rounded-[19.8px] bg-gradient-to-br from-[#FFD49C] from-20% via-[#7A87FB] via-30% to-[#101111] to-45% mx-8 ">
-            <div class="  flex flex-col gap-8 p-6 rounded-[19.8px] bg-[#101111] ">
+        <div class="flex flex-col gap-8 rounded-[19.8px] bg-gradient-to-br from-[#FFD49C]  from-15%  via-[#7A87FB] via-20%  to-[#101111] to-45% pl-0.5 pt-0.5  mx-8 ">
+            <div class="  flex flex-col gap-8 p-6 rounded-[19.8px] bg-[#101111]  ">
                 <div class="flex gap-4 items-center ">
                     <div class="w-[35px] h-[35px] rounded-full bg-[#878787]"></div>
                     <div class="flex flex-col gap-1">
@@ -158,7 +169,7 @@
             </div>
 
         </div> 
-        <div class="flex flex-col gap-8 rounded-[19.8px] bg-gradient-to-br from-[#FFD49C] from-15% via-[#7A87FB] via-30% to-[#101111] to-45% mx-8 ">
+        <div class="flex flex-col gap-8 rounded-[19.8px] bg-gradient-to-br from-[#FFD49C] from-15% via-[#7A87FB] via-20% to-[#101111] to-45% mx-8 pl-0.5 pt-0.5 ">
             <div class="  flex flex-col gap-8 p-6 rounded-[19.8px] bg-[#101111] ">
                 <div class="flex gap-4 items-center ">
                     <div class="w-[35px] h-[35px] rounded-full bg-[#878787]"></div>
@@ -173,7 +184,7 @@
             </div>
 
         </div>    
-        <div class="flex flex-col gap-8 rounded-[19.8px] bg-gradient-to-br from-[#FFD49C] from-15% via-[#7A87FB] via-30% to-[#101111] to-45% mx-8 ">
+        <div class="flex flex-col gap-8 rounded-[19.8px] bg-gradient-to-br from-[#FFD49C] from-15% via-[#7A87FB] via-20% to-[#101111] to-45% mx-8 pl-0.5 pt-0.5 ">
             <div class="  flex flex-col gap-8 p-6 rounded-[19.8px] bg-[#101111] ">
                 <div class="flex gap-4 items-center ">
                     <div class="w-[35px] h-[35px] rounded-full bg-[#878787]"></div>
@@ -188,7 +199,7 @@
             </div>
 
         </div>    
-        <div class="flex flex-col gap-8 rounded-[19.8px] bg-gradient-to-br from-[#FFD49C] from-15% via-[#7A87FB] via-30% to-[#101111] to-45% mx-8 ">
+        <div class="flex flex-col gap-8 rounded-[19.8px] bg-gradient-to-br from-[#FFD49C] from-15% via-[#7A87FB] via-20% to-[#101111] to-45% mx-8 pl-0.5 pt-0.5 ">
             <div class="  flex flex-col gap-8 p-6 rounded-[19.8px] bg-[#101111] ">
                 <div class="flex gap-4 items-center ">
                     <div class="w-[35px] h-[35px] rounded-full bg-[#878787]"></div>
@@ -226,12 +237,27 @@
                 <ul class="flex gap-20 items-center bg-black h-full w-full rounded-full  ">
                     <li>
                         <a href="#">
-                            <img src="./assets/images/Home.png" alt="">
+                            <img src="./assets/images/Home.png" alt="oce">
                         </a>
                     </li>
-                    <li><a href="#" class="">about</a></li>
-                    <li><a href="#">projects</a></li>
-                    <li><a href="#" class="pr-5">contact me</a></li>
+                    <li>
+                        <a href="#" class="">
+                            <img src="./assets/images/Home (2).png" alt="">
+                        </a>
+                        
+                    </li>
+                    <li>
+                        <a href="#" class="">
+                            <img src="./assets/images/Home (3).png" alt="">
+                        </a>
+                        
+                    </li>
+                    <li>
+                        <a href="#" class="">
+                            <img src="./assets/images/Home (4).png" alt="">
+                        </a>
+                        
+                    </li>
                 </ul>
             </div>
             <div class="flex  gap-4 items-center">
