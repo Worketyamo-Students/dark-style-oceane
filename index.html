@@ -168,7 +168,7 @@
         <div class="flex gap-10 justify-start items-start ">
             <div class="flex flex-col items-center">
                 
-                <div class=" rounded-full flex items-center justify-center border-white h-10   w-10  bg-body border  ">1 </div>
+                <div class=" rounded-full flex items-center justify-center border-white h-10   w-10  bg-body border hover:bg-white  ">1 </div>
                 <div class="bg-table w-[1px] h-full  mt-4 bottom-2 py-30 "></div>
             </div>
             <div class="flex flex-col gap-8  justify-center lg:flex lg:gap-8  pb-9">
@@ -185,7 +185,7 @@
         <div class="flex gap-10 justify-start items-start ">
             <div class="flex flex-col items-center">
                 
-                <div class=" rounded-full flex items-center justify-center border-white h-10   w-10  bg-body border  ">2 </div>
+                <div class=" rounded-full flex items-center justify-center border-white h-10   w-10  bg-body border hover:bg-white  ">2 </div>
                 <div class="bg-table w-[1px] h-full  mt-4 bottom-2 py-20 "></div>
             </div>
             <div class="flex flex-col gap-8  justify-center lg:flex lg:gap-8  pb-9">
@@ -216,7 +216,7 @@
 
         <div class="flex flex-col gap-8">
             <div class="bg-noir mx-[35px] flex flex-col gap-8 pt-8  justify-evenly  lg:flex lg:flex-row lg:justify-center lg:items-center ">
-                    <div class="  bg-gradient-to-r from-bleu  to-rose h-[316px]  w-full lg:w-3/5   lg:flex lg:flex-col lg:gap-10"></div>
+                    <div class="  /*bg-gradient-to-r from-bleu  to-rose h-[316px]*/ bg-[url(/assets/images/Capture d’écran du 2025-02-28 17-44-08.png)]  w-full lg:w-3/5   lg:flex lg:flex-col lg:gap-10"></div>
                     <div class="flex flex-col gap-8 pb-6 -pl-16 lg:flex-1 ">
                         <button type="submit" class="w-[35px] h-[35px] rounded-full bg-gradient-to-b  from-noir from-70%  to-white border border-gray-4OO">1</button>  
                         <h1 class="font-bold">Project Name </h1>
@@ -246,7 +246,7 @@
             <h1 class="font-bold text-3xl">Client testimonials</h1>
             <img src="./assets/images/frame.png" alt="" class="w-12 h-12">
         </div>
-        <div class="lg:flex">
+        <div class="lg:flex ">
             <div class="flex flex-col gap-8 rounded-[19.8px] bg-gradient-to-br from-rose from-15% via-bleu via-20% to-body to-45% mx-8 pl-0.5 pt-0.5 ">
                 <div class="  flex flex-col gap-8 p-6 rounded-[19.8px] bg-body ">
                     <div class="flex  justify-between">
@@ -326,45 +326,84 @@
         </div>
 
     </section>
-    <section class="mb-24 lg:mb-32">
-        <div class="p-8 flex gap-4 items-center"> 
-            <h1 class="font-bold text-3xl">Have idea about project?</h1>
-            <img src="./assets/images/frame.png" alt="" class="w-12 h-12">
-        </div>
-        <div class="px-10 flex flex-col gap-4">
-            <div>
-                <p class="line-clamp-2">Write anything here something about yourself to showcase what actually you doing or targeting etc.</p>
+    <section class="flex lg:mt-12">
+        <section class="mb-24 lg:flex-1 ">
+            <div class="p-8 flex gap-4 items-center"> 
+                <h1 class="font-bold text-3xl">Have idea about project?</h1>
+                <img src="./assets/images/frame.png" alt="" class="w-12 h-12">
             </div>
-            <div>
-                <button type="submit" class=" px-6 p-3 flex justify-center text-center rounded-full text-black bg-gradient-to-r from-bleu  to-rose ">Send us a message</button>
-            </div>
+            <div class="px-10 flex flex-col gap-4">
+                <div>
+                    <p class="line-clamp-2">Write anything here something about yourself to showcase what actually you doing or targeting etc.</p>
+                </div>
+                <div>
+                    <button type="submit" class=" px-6 p-3 flex justify-center text-center rounded-full text-black bg-gradient-to-r from-bleu  to-rose ">Send us a message</button>
+                </div>
 
-        </div>
+            </div>
+        </section>
+        <section class="hidden lg:block lg:mx-12 lg:mb-8  lg:flex-1">
+                <div class=" flex w-full h-24   ">
+                    <div class="border flex-1 border-table  border-t-0 border-b-0 border-l-0 border-r-0"></div>    
+                    <div class="border flex-1 border-table border-t-0  border-b-0 border-l-0"></div>    
+                    <div class="border flex-1 border-table border-t-0 border-b-0"></div>    
+                    <div class="border flex-1 border-table border-t-0 border-b-0"></div>    
+                    <div class="border flex-1 border-table w-12 border-t-0 border-r-0 border-b-0"></div>    
+
+                </div>
+                <div class=" flex w-full h-18 border-0 bg-white ">
+                    <div class="border flex-1 border-table border-t-0 border-l-0 border-r-0 bg-body "></div>    
+                    <div class="border flex-1 border-table border-t-0 border-l-0 bg-body"></div>    
+                    <div class="border flex-1 border-table border-t-0 bg-body bg-body rounded-br-xl"></div>    
+                    <div class="border flex-1 border-table border-t-0 bg-body rounded-bl-xl"></div>    
+                    <div class="border flex-1 border-table w-12 border-r-0 border-t-0 bg-body"></div>    
+
+                </div>
+                <div class=" flex w-full h-18 bg-white ">
+                    <div class="border flex-1 border-table bg-body border-l-0 border-r-0"></div>    
+                    <div class="border flex-1 border-table bg-body border-l-0"></div>    
+                    <div class="border flex-1 border-table bg-body rounded-tr-xl"></div>    
+                    <div class="border flex-1 border-table bg-body rounded-tl-xl"></div>    
+                    <div class="border flex-1 border-table bg-body w-12 border-r-0"></div>    
+
+                </div>
+                <div class=" flex w-full h-18 bg-white  ">
+                    <div class="border flex-1 border-table border-l-0 border-b-0 border-r-0 bg-body "></div>    
+                    <div class="border flex-1 border-table border-b-0 border-l-0 bg-body"></div>    
+                    <div class="border flex-1 border-table border-b-0 bg-body"></div>    
+                    <div class="border flex-1 border-table border-b-0 bg-body"></div>    
+                    <div class="border flex-1 border-table w-12 border-r-0 border-b-0 bg-body"></div>    
+
+                </div>
+            
+        </section>
+
     </section>
-    <footer class="">
+
+    <footer class=" mb-8">
         <div class="mx-[80px] lg:mx-[120px] flex flex-col gap-4 lg:flex lg:flex-row lg:justify-between"  >
-            <div class=" rounded-full   bg-gradient-to-r from-rose  to-bleu p-1 block lg:hidden     ">
+            <div class=" rounded-full   bg-gradient-to-r from-rose  to-bleu p-0.5 block lg:hidden     ">
                 <ul class="flex gap-20 items-center bg-black h-full w-full rounded-full   justify-center  pr-8  py-1 max-sm:py-1  ">
                     <li class="  ">
                         <a href="#">
-                            <img src="./assets/images/Home.png" alt="oce" class="  w-32  max-sm:w-32">
+                            <img src="./assets/images/Home.png" alt="oce" class="    max-sm:w-40">
                         </a>
                     </li>
                     <li>
                         <a href="#" class="">
-                            <img src="./assets/images/Home (2).png" alt="" class="  w-32 max-sm:w-32">
+                            <img src="./assets/images/Home (2).png" alt="" class="   max-sm:w-32">
                         </a>
                         
                     </li>
                     <li>
                         <a href="#" class="">
-                            <img src="./assets/images/Home (3).png" alt="" class="  w-32  max-sm:w-32">
+                            <img src="./assets/images/Home (3).png" alt="" class="    max-sm:w-32">
                         </a>
                         
                     </li>
                     <li class="">
                         <a href="#" class="">
-                            <img src="./assets/images/Home (4).png" alt="" class="  w-32 max-sm:w-32">
+                            <img src="./assets/images/Home (4).png" alt="" class="   max-sm:w-32">
                         </a>
                         
                     </li>
@@ -375,7 +414,7 @@
                 znisa
             </div>
             <div class=" rounded-full   bg-gradient-to-r from-rose  to-bleu p-0.5 hidden lg:block   ">
-                <ul class="flex gap-20 items-center bg-black h-full w-full rounded-full  justify-center pl-8 pr-8  ">
+                <ul class="flex gap-20 items-center bg-black h-full w-full rounded-full  justify-center pl-8 pr-8 py-1 ">
                     <li>
                         <a href="#" >
                             <img src="./assets/images/Home.png" alt="oce" class="w-16" >
