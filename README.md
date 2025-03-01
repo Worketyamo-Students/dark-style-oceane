@@ -25,3 +25,4 @@
             </div>    
   
         </div> */
+                    /*<div class="  bg-gradient-to-r from-bleu  to-rose h-[316px] bg-[url(/assets/images/Capture d’écran du 2025-02-28 17-44-08.png)]  w-full lg:w-3/5   lg:flex lg:flex-col lg:gap-10"></div>*/
